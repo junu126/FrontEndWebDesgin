@@ -7,5 +7,5 @@ make = () => {
     
     let x = (cCpx.value / cPpx.value )* 100;
     
-    return document.getElementById('demo').innerHTML = x;
+    return document.getElementById('demo').innerHTML = x+'%';
 }
