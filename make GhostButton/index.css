@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0
+}
+body {
+    background:url('./dark-bg.jpg') no-repeat center fixed;
+    background-size:cover;
+    text-align:center;
+}
+div {
+    width: 100%;
+    bottom: 50px;
+    position: absolute;
+}
+
+.ghost-button {
+    display: inline-block;
+    position: relative;
+    padding:  10px 20px;
+    margin: 50px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 110%;
+    font-family: 'NanumSquare';
+    font-weight: 800;
+}
+
+.ghost-button:hover {
+    background-color: #fff;
+    color:black;
+}
