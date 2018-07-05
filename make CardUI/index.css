@@ -1,0 +1,61 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1100px;
+    min-width: 760px;
+    margin: 50px auto;  /* 상하 50px, 가운데 정렬 */
+}
+
+#columns {
+    -webkit-column-count: 2;    /* Chrome,Opera, Safari */
+    -webkit-column-gap: 10px;   /* Firefox */
+    -moz-column-count: 2;   /* Chrome,Opera, Safari */
+    -moz-column-gap: 10px;  /* Firefox */
+    column-count: 2;    /* 몇개의 열로 나눌지. */
+    column-gap: 10px;   /* 열 사이의 간격 */
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    background-color: #fff;
+    border: 2px solid #aaa;
+    border-bottom: 3px solid #bbb;
+    padding: 15px;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-family: 'NanumSquare', "맑은 고딕";
+    color:#333;
+    margin: 0;
+    padding: 10px;
+}
+
+@media(min-width:960px) {
+    #columns{
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media(min-width:1100px) {
+	#columns{
+		-webkit-column-count:4;
+		-moz-column-count:4;
+		column-count:4;
+	}
+}
