@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+#videoBg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;
+    background: url(./image/seagull.jpg) no-repeat;
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    margin: 250px auto;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, .4);
+}
+
+h1 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px white;
+}
+
+p {
+    font-family: 'Nanum Gothic', serif;
+}
+
+@media screen and (max-width:800px){
+    body {
+        background:url(./image/seagull.jpg) no-repeat fixed center #000;	
+        background-size:cover;
+    }
+    #videoBg {
+        display:none;
+    }
+}
