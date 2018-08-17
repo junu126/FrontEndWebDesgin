@@ -13,7 +13,7 @@ div {
     position: absolute;
 }
 
-.ghost-button {
+.ghost-button: {
     display: inline-block;
     position: relative;
     padding:  10px 20px;
